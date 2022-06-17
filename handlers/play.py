@@ -132,12 +132,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"<b>❰Fʟᴏᴏᴅ 😒 ᴡᴀɪᴛ ᴇʀʀᴏʀ  😔❱</b>\nᴀssɪsᴛᴀɴᴛ 🎸 ᴜsᴇʀʙᴏᴛ ❤️ ᴄᴀɴ'ᴛ ᴊᴏɪɴ ᴜʀ 💫 ɢʀᴏᴜᴘ 🥀 ᴍᴀᴋᴇ sᴜʀᴇ ᴀʟɪsʜᴀ ʙᴏᴛ 💫 ɪs ɴᴏᴛ ʙᴀɴɴᴇᴅ 😔 ɪɴ ᴜʀ ɢʀᴘ🎸 ᴏʀ ᴛʀʏ ᴀɢᴀɪɴ ʟᴀᴛᴇʀ ,ᴀɴʏ ʜᴇʟᴘ ᴅᴍ :- ✨ [Aʙʜɪᴍᴀɴʏᴜ Sɪɴɢʜ Rᴀɴᴀᴡᴀᴛ](https://t.me/TERA_BAAP_KATIL) ❤️🥀 :)")
+                        f"<b>❰Fʟᴏᴏᴅ 😒 ᴡᴀɪᴛ ᴇʀʀᴏʀ  😔❱</b>\nᴀssɪsᴛᴀɴᴛ 🎸 ᴜsᴇʀʙᴏᴛ ❤️ ᴄᴀɴ'ᴛ ᴊᴏɪɴ ᴜʀ 💫 ɢʀᴏᴜᴘ 🥀 ᴍᴀᴋᴇ sᴜʀᴇ ᴀʟɪsʜᴀ ʙᴏᴛ 💫 ɪs ɴᴏᴛ ʙᴀɴɴᴇᴅ 😔 ɪɴ ᴜʀ ɢʀᴘ🎸 ᴏʀ ᴛʀʏ ᴀɢᴀɪɴ ʟᴀᴛᴇʀ ,ᴀɴʏ ʜᴇʟᴘ ᴅᴍ :- ✨ [Aʙʜɪᴍᴀɴʏᴜ Sɪɴɢʜ Rᴀɴᴀᴡᴀᴛ](https://t.me/Venom_Hai_Hum) ❤️🥀 :)")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<i>Hey {user.first_name}, Aʟɪsʜᴀ's ᴀssɪsᴛᴀɴᴛ 🎸 ɪs ɴᴏᴛ ɪɴ ᴛʜɪs ᴄʜᴀᴛ ᴀsᴋ ᴀᴅᴍɪɴ 😎 ᴛᴏ sᴇɴᴅ /Play ᴄᴏᴍᴍᴀɴᴅ 😎 ғᴏʀ ғɪʀsᴛ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ɪᴛ. ᴀɴʏ ʜᴇʟᴘ ᴅᴍ :- ✨ [༒︎★•亗『𝐊𝐀𝐓𝐈𝐋』亗•★ ](https://t.me/Tera_baap_katil) ❤️🥀 </i>")
+            f"<i>Hey {user.first_name}, Aʟɪsʜᴀ's ᴀssɪsᴛᴀɴᴛ 🎸 ɪs ɴᴏᴛ ɪɴ ᴛʜɪs ᴄʜᴀᴛ ᴀsᴋ ᴀᴅᴍɪɴ 😎 ᴛᴏ sᴇɴᴅ /Play ᴄᴏᴍᴍᴀɴᴅ 😎 ғᴏʀ ғɪʀsᴛ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ɪᴛ. ᴀɴʏ ʜᴇʟᴘ ᴅᴍ :- ✨ [Aʙʜɪᴍᴀɴʏᴜ Sɪɴɢʜ Rᴀɴᴀᴡᴀᴛ](https://t.me/Venom_Hai_Hum) ❤️🥀 </i>")
         return
     
     audio = (
@@ -155,7 +155,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/13fba0e9d76c406ae9ce2.jpg"
+        thumb_name = "https://telegra.ph/file/1e1a6fb9ee3d557356c7a.png"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -165,12 +165,12 @@ async def play(_, message: Message):
                 
                [
                     InlineKeyboardButton(
-                            text="Dᴇᴠᴇʟᴏᴘᴇʀ📡",
-                            url=f"https://t.me/heartbrokenperson1"),
+                            text="✨Dᴇᴠᴇʟᴏᴘᴇʀ",
+                            url=f"https://t.me/Venom_Hai_Hum"),
                             
                     InlineKeyboardButton(
-                            text="📨Sᴜᴘᴘᴏʀᴛ⭐",
-                            url=f"https://t.me/FULL_MASTI_CLUBS")
+                            text="⭐Sᴜᴘᴘᴏʀᴛ",
+                            url=f"https://t.me/AlishaSupport")
                ],
                
             ]
@@ -209,12 +209,12 @@ async def play(_, message: Message):
                 
                [
                     InlineKeyboardButton(
-                            text="📨 Dᴇᴠᴇʟᴏᴘᴇʀ📡",
-                            url=f"https://t.me/HEARTBROKENPERSON1"),
+                            text="✨Dᴇᴠᴇʟᴏᴘᴇʀ",
+                            url=f"https://t.me/VeNom_Hain_HuM"),
                             
                     InlineKeyboardButton(
-                            text="📨 Sᴜᴘᴘᴏʀᴛ⭐",
-                            url=f"https://t.me/FULL_MASTI_CLUBS")
+                            text="⭐Sᴜᴘᴘᴏʀᴛ",
+                            url=f"https://t.me/AlishaSupport")
                ],
                
             ]
@@ -222,7 +222,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/13fba0e9d76c406ae9ce2.jpg"
+            thumb_name = "https://telegra.ph/file/1e1a6fb9ee3d557356c7a.png"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -230,12 +230,12 @@ async def play(_, message: Message):
                 
                [
                     InlineKeyboardButton(
-                            text="📨 Dᴇᴠᴇʟᴏᴘᴇʀ📡",
-                            url=f"https://t.me/HEARTBROKENPERSON1"),
+                            text="✨Dᴇᴠᴇʟᴏᴘᴇʀ",
+                            url=f"https://t.me/VeNom_Hain_HuM"),
                             
                     InlineKeyboardButton(
-                            text="📨 Sᴜᴘᴘᴏʀᴛ⭐",
-                            url=f"https://t.me/FULL_MASTI_CLUBS")
+                            text="⭐Sᴜᴘᴘᴏʀᴛ",
+                            url=f"https://t.me/AlishaSupport")
                ],
                
             ]
@@ -289,12 +289,12 @@ async def play(_, message: Message):
                 
                [
                     InlineKeyboardButton(
-                            text="📨 Dᴇᴠᴇʟᴏᴘᴇʀ📡",
-                            url=f"https://t.me/HEARTBROKENPERSON1"),
+                            text="✨Dᴇᴠᴇʟᴏᴘᴇʀ",
+                            url=f"https://t.me/VeNom_Hain_HuM"),
                             
                     InlineKeyboardButton(
-                            text="📨 Sᴜᴘᴘᴏʀᴛ⭐",
-                            url=f"https://t.me/FULL_MASTI_CLUBS")
+                            text="⭐Sᴜᴘᴘᴏʀᴛ",
+                            url=f"https://t.me/AlishaSupport")
                ],
                
             ]
@@ -316,7 +316,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption=f"**» ⏩ Yᴏᴜʀ sᴏɴɢ ᴘᴏsɪᴛɪᴏɴ {position} **\n➡️ **Sᴏɴɢ ɴᴀᴍᴇ​:** [{title[:65]}]({url})\n🕕 **Dᴜʀᴀᴛɪᴏɴ:** `{duration}` ᴍɪɴᴜᴛᴇs\n🥀 **Rᴇsǫᴜᴇsᴛᴇᴅ ʙʏ​:** {message.from_user.mention}\n❤️ **Pʟᴀʏɪɴɢ ɪɴ​:** `{message.chat.title}`\n🎥 **Sᴛʀᴇᴀᴍ ᴛʏᴘᴇ:** Yᴏᴜᴛᴜʙᴇ ᴍᴜsɪᴄ\n❰ ★Aʟɪsʜᴀ Mᴜsɪᴄ★ ❱ ɴᴏᴡ 😄 ᴘʟᴀʏɪɴɢ 📀...\nBʏ : @TMC_EMPIRES".format(position),
+            caption=f"**» ⏩ Yᴏᴜʀ sᴏɴɢ ᴘᴏsɪᴛɪᴏɴ {position} **\n➡️ **Sᴏɴɢ ɴᴀᴍᴇ​:** [{title[:65]}]({url})\n🕕 **Dᴜʀᴀᴛɪᴏɴ:** `{duration}` ᴍɪɴᴜᴛᴇs\n🥀 **Rᴇsǫᴜᴇsᴛᴇᴅ ʙʏ​:** {message.from_user.mention}\n❤️ **Pʟᴀʏɪɴɢ ɪɴ​:** `{message.chat.title}`\n🎥 **Sᴛʀᴇᴀᴍ ᴛʏᴘᴇ:** Yᴏᴜᴛᴜʙᴇ ᴍᴜsɪᴄ\n❰ ★Aʟɪsʜᴀ Mᴜsɪᴄ★ ❱ ɴᴏᴡ 😄 ᴘʟᴀʏɪɴɢ 📀...\nBʏ : @AlishaSupport".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -333,7 +333,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption=f"**»▶️ Nᴏᴡ ᴘʟᴀʏɪɴɢ «**\n➡️ **Sᴏɴɢ Nᴀᴍᴇ​:** [{title[:65]}]({url})\n🕕 **Dᴜʀᴀᴛɪᴏɴ:** `{duration}` ᴍɪɴᴜᴛᴇs\n🥀 **Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ​:** {message.from_user.mention}\n❤️ **Pʟᴀʏɪɴ ɪɴ​:** `{message.chat.title}`\n🎥 **Sᴛʀᴇᴀᴍ ᴛʏᴘᴇ:** ʏᴏᴜᴛᴜʙᴇ ᴍᴜsɪᴄ\n **❰ ★Aʟɪsʜᴀ Mᴜsɪᴄ★ ❱ ɴᴏᴡ 😄 ᴘʟᴀʏɪɴɢ 📀...\n **ʙʏ : @TMC_EMPIRES".format(
+            caption=f"**»▶️ Nᴏᴡ ᴘʟᴀʏɪɴɢ «**\n➡️ **Sᴏɴɢ Nᴀᴍᴇ​:** [{title[:65]}]({url})\n🕕 **Dᴜʀᴀᴛɪᴏɴ:** `{duration}` ᴍɪɴᴜᴛᴇs\n🥀 **Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ​:** {message.from_user.mention}\n❤️ **Pʟᴀʏɪɴ ɪɴ​:** `{message.chat.title}`\n🎥 **Sᴛʀᴇᴀᴍ ᴛʏᴘᴇ:** ʏᴏᴜᴛᴜʙᴇ ᴍᴜsɪᴄ\n **❰ ★Aʟɪsʜᴀ Mᴜsɪᴄ★ ❱ ɴᴏᴡ 😄 ᴘʟᴀʏɪɴɢ 📀...\n **ʙʏ : @AlishaSupport".format(
         message.chat.title
         ), )
 
