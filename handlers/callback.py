@@ -13,17 +13,17 @@ async def start_op(_, query: CallbackQuery):
               f"""**Hello, Welcome {message.from_user.mention()}\n
 I am powerful easy to use TeleGram Super Bot. I can play high quality and unbreakable music in your group voice chat. Just add me and promote with needed powers.\n
 Use Inline buttons for more !!
-For Help : @HEARTBROKENPERSON1**""",
+For Help : @AlishaSupport**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("✚ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                    InlineKeyboardButton("✚ Gʀᴏᴜᴘ Mᴇ Lᴇ Jᴀᴏ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],[
-                    InlineKeyboardButton("👤 𝐁𝐎𝐓 𝐎𝐖𝐍𝐄𝐑", url=f"https://t.me/{OWNER_USERNAME}"),
-                    InlineKeyboardButton("📢 𝐒𝐎𝐔𝐑𝐂𝐄", url=f"https://github.com/bhumiharsaurabh/katilmusicx")
+                    InlineKeyboardButton("👤 Dᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/{OWNER_USERNAME}"),
+                    InlineKeyboardButton("📢 Sᴀᴜʀᴄᴇ", url=f"https://github.com/CandyMusic/Alisha2")
                 ],[
-                    InlineKeyboardButton("📨 𝐆𝐑𝐎𝐔𝐏", url=f"https://t.me/full_masti_clubs"),
-                    InlineKeyboardButton("📨 𝐂𝐇𝐀𝐍𝐍𝐄𝐋", url=f"https://t.me/heartbrokenperson1")
+                    InlineKeyboardButton("📨 Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/AlishaSupport"),
+                    InlineKeyboardButton("📨 Uᴘᴅᴀᴛᴇs", url=f"https://t.me/Pubglovers_Shayri_lovers")
                 ],[
                     InlineKeyboardButton("🔍 How To Use? Commands", callback_data="cb_cmd")
                 ],
@@ -58,6 +58,6 @@ async def cbcmd(_, query: CallbackQuery):
 » /gcast - broadcast your message 
 
 
-🌀 Powered By : @heartbrokenperson1**""",
+🌀 Powered By : @VeNom_Hai_HuM**""",
     )
 
