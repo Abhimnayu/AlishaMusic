@@ -108,7 +108,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "@tera_baap_katil"
+        user.first_name = "@VeNom_Hai_HuM"
     usar = user
     wew = usar.id
     try:
@@ -210,7 +210,7 @@ async def play(_, message: Message):
                [
                     InlineKeyboardButton(
                             text="✨Dᴇᴠᴇʟᴏᴘᴇʀ",
-                            url=f"https://t.me/VeNom_Hain_HuM"),
+                            url=f"https://t.me/VeNom_Hai_HuM"),
                             
                     InlineKeyboardButton(
                             text="⭐Sᴜᴘᴘᴏʀᴛ",
@@ -231,7 +231,7 @@ async def play(_, message: Message):
                [
                     InlineKeyboardButton(
                             text="✨Dᴇᴠᴇʟᴏᴘᴇʀ",
-                            url=f"https://t.me/VeNom_Hain_HuM"),
+                            url=f"https://t.me/VeNom_Hai_HuM"),
                             
                     InlineKeyboardButton(
                             text="⭐Sᴜᴘᴘᴏʀᴛ",
@@ -290,7 +290,7 @@ async def play(_, message: Message):
                [
                     InlineKeyboardButton(
                             text="✨Dᴇᴠᴇʟᴏᴘᴇʀ",
-                            url=f"https://t.me/VeNom_Hain_HuM"),
+                            url=f"https://t.me/VeNom_Hai_HuM"),
                             
                     InlineKeyboardButton(
                             text="⭐Sᴜᴘᴘᴏʀᴛ",
