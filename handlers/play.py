@@ -100,7 +100,7 @@ async def play(_, message: Message):
 
     await message.delete()
     
-    lel = await message.reply("🔎 **𝐅𝐢𝐧𝐝𝐢𝐧𝐠 💫 𝐓𝐡𝐞 𝐒𝐨𝐧𝐠 ❤️ ★♪♪𝐌𝐔𝐒𝐈𝐂'𝐗✌︎✌︎★..**")
+    lel = await message.reply("🔎 **Fɪɴᴅɪɴɢ 💫 ᴛʜᴇ sᴏɴɢ ❤️ ᴘʟs ᴡᴀɪᴛ ʙᴀʙʏ✌︎✌︎★..**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -120,24 +120,24 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b>𝐀𝐝 𝐌𝐞 😎 𝐀𝐬 𝐀𝐝𝐦𝐢𝐧 𝐎𝐟 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 💫  𝐅𝐢𝐫𝐬𝐭 ★♪♪𝐌𝐔𝐒𝐈𝐂'𝐗✌︎✌︎★</b>")
+                        "<b>Aᴅᴅ ᴍᴇ 😎 ᴀs ᴀ ᴀᴅᴍɪɴ 💫  Fɪʀsᴛ ★ Bᴀʙʏ✌︎✌︎★</b>")
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "** ★♪♪𝐌𝐔𝐒𝐈𝐂'𝐗✌︎✌︎★ 🎶 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐉𝐨𝐢𝐧𝐞𝐝 😎 🤟 𝐓𝐡𝐢𝐬 𝐆𝐫𝐨𝐮𝐩  𝐅𝐨𝐫 𝐏𝐥𝐚𝐲 ▶ 𝐌𝐮𝐬𝐢𝐜 🎸**")
+                        message.chat.id, "** ★♪♪ Aʟɪsʜᴀ's✌︎✌︎★ 🎶 ᴀssɪsᴛᴀɴᴛ ʜᴀs ᴊᴏɪɴᴇᴅ 😎 🤟 ᴜʀ ɢʀᴘ ᴛᴏ ᴘʟᴀʏ ▶ sᴏɴɢs 🎸**")
 
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"<b>❰𝐅𝐥𝐨𝐨𝐝 😒 𝐖𝐚𝐢𝐭 𝐄𝐫𝐫𝐨𝐫  😔❱</b>\n𝐇𝐞𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 🎸 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 ❤️ 𝐂𝐨𝐮𝐥𝐝𝐧'𝐭 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 💫 𝐆𝐫𝐨𝐮𝐩  𝐃𝐮𝐞 𝐓𝐨 𝐇𝐞𝐚𝐯𝐲 𝐉𝐨𝐢𝐧 𝐑𝐞𝐐𝐮𝐞𝐬𝐭 🥀 . 𝐌𝐚𝐤𝐞 𝐒𝐮𝐫𝐞 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 💫 𝐈𝐬 𝐍𝐨𝐭 𝐁𝐚𝐧𝐧𝐞𝐝 😔 𝐈𝐧 𝐆𝐫𝐨𝐮𝐩 🎸  𝐀𝐧𝐝 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 𝐋𝐚𝐭𝐞𝐫 𝐀𝐧𝐲 𝐇𝐞𝐥𝐩 𝐃𝐦 :- ✨ [༒︎★•亗『𝐊𝐀𝐓𝐈𝐋』亗•★ ](https://t.me/TERA_BAAP_KATIL) ❤️🥀 :)")
+                        f"<b>❰Fʟᴏᴏᴅ 😒 ᴡᴀɪᴛ ᴇʀʀᴏʀ  😔❱</b>\nᴀssɪsᴛᴀɴᴛ 🎸 ᴜsᴇʀʙᴏᴛ ❤️ ᴄᴀɴ'ᴛ ᴊᴏɪɴ ᴜʀ 💫 ɢʀᴏᴜᴘ 🥀 ᴍᴀᴋᴇ sᴜʀᴇ ᴀʟɪsʜᴀ ʙᴏᴛ 💫 ɪs ɴᴏᴛ ʙᴀɴɴᴇᴅ 😔 ɪɴ ᴜʀ ɢʀᴘ🎸 ᴏʀ ᴛʀʏ ᴀɢᴀɪɴ ʟᴀᴛᴇʀ ,ᴀɴʏ ʜᴇʟᴘ ᴅᴍ :- ✨ [Aʙʜɪᴍᴀɴʏᴜ Sɪɴɢʜ Rᴀɴᴀᴡᴀᴛ](https://t.me/TERA_BAAP_KATIL) ❤️🥀 :)")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<i>Hey {user.first_name}, 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 🎸 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 𝐈𝐬 𝐍𝐨𝐭 𝐈𝐧 𝐓𝐡𝐢𝐬 𝐂𝐡𝐚𝐭' 𝐀𝐬𝐤 𝐀𝐝𝐦𝐢𝐧 😎 𝐓𝐨 𝐒𝐞𝐧𝐝 /Play 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 😎 𝐅𝐨𝐫 𝐅𝐢𝐫𝐬𝐭 𝐓𝐢𝐦𝐞 𝐓𝐨 𝐀𝐝𝐝 𝐈𝐭 𝐀𝐧𝐲 𝐇𝐞𝐥𝐩 𝐃𝐦 :- ✨ [༒︎★•亗『𝐊𝐀𝐓𝐈𝐋』亗•★ ](https://t.me/Tera_baap_katil) ❤️🥀 </i>")
+            f"<i>Hey {user.first_name}, Aʟɪsʜᴀ's ᴀssɪsᴛᴀɴᴛ 🎸 ɪs ɴᴏᴛ ɪɴ ᴛʜɪs ᴄʜᴀᴛ ᴀsᴋ ᴀᴅᴍɪɴ 😎 ᴛᴏ sᴇɴᴅ /Play ᴄᴏᴍᴍᴀɴᴅ 😎 ғᴏʀ ғɪʀsᴛ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ɪᴛ. ᴀɴʏ ʜᴇʟᴘ ᴅᴍ :- ✨ [༒︎★•亗『𝐊𝐀𝐓𝐈𝐋』亗•★ ](https://t.me/Tera_baap_katil) ❤️🥀 </i>")
         return
     
     audio = (
@@ -150,7 +150,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"❰ ° 𝐒𝐨𝐧𝐠 🎸 ° ❱ 𝐋𝐨𝐧𝐠𝐞𝐫 𝐓𝐡𝐚𝐧 {DURATION_LIMIT} 𝐌𝐢𝐧𝐮𝐭𝐞'𝐒 𝐀𝐫𝐞𝐧'𝐭 𝐀𝐥𝐥𝐨𝐰𝐞𝐝 𝐓𝐨 𝐏𝐥𝐚𝐲 ▶ ❤️🥀❌"
+                f"❰ ° Sᴏɴɢ 🎸 ° ❱ ʟᴏɴɢᴇʀ ᴛʜᴇɴ {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs ᴀʀᴇ'ɴᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ ▶ ❤️🥀❌"
             )
 
         file_name = get_file_name(audio)
@@ -165,11 +165,11 @@ async def play(_, message: Message):
                 
                [
                     InlineKeyboardButton(
-                            text="📨𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
+                            text="Dᴇᴠᴇʟᴏᴘᴇʀ📡",
                             url=f"https://t.me/heartbrokenperson1"),
                             
                     InlineKeyboardButton(
-                            text="📨𝐆𝐫𝐨𝐮𝐩⭐",
+                            text="📨Sᴜᴘᴘᴏʀᴛ⭐",
                             url=f"https://t.me/FULL_MASTI_CLUBS")
                ],
                
@@ -209,11 +209,11 @@ async def play(_, message: Message):
                 
                [
                     InlineKeyboardButton(
-                            text="📨 𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
+                            text="📨 Dᴇᴠᴇʟᴏᴘᴇʀ📡",
                             url=f"https://t.me/HEARTBROKENPERSON1"),
                             
                     InlineKeyboardButton(
-                            text="📨 𝐆𝐫𝐨𝐮𝐩⭐",
+                            text="📨 Sᴜᴘᴘᴏʀᴛ⭐",
                             url=f"https://t.me/FULL_MASTI_CLUBS")
                ],
                
@@ -230,11 +230,11 @@ async def play(_, message: Message):
                 
                [
                     InlineKeyboardButton(
-                            text="📨 𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
+                            text="📨 Dᴇᴠᴇʟᴏᴘᴇʀ📡",
                             url=f"https://t.me/HEARTBROKENPERSON1"),
                             
                     InlineKeyboardButton(
-                            text="📨 𝐆𝐫𝐨𝐮𝐩⭐",
+                            text="📨 Sᴜᴘᴘᴏʀᴛ⭐",
                             url=f"https://t.me/FULL_MASTI_CLUBS")
                ],
                
@@ -243,7 +243,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"❰ ° 𝐒𝐨𝐧𝐠 🎸 ° ❱ 𝐋𝐨𝐧𝐠𝐞𝐫 𝐓𝐡𝐚𝐧 {DURATION_LIMIT} 𝐌𝐢𝐧𝐮𝐭𝐞'𝐒 𝐀𝐫𝐞𝐧'𝐭 𝐀𝐥𝐥𝐨𝐰𝐞𝐝 𝐓𝐨 𝐏𝐥𝐚𝐲 ▶ ❤️🥀❌"
+                f"❰ ° Sᴏɴɢ 🎸 ° ❱ ʟᴏɴɢᴇʀ ᴛʜᴇɴ {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs ᴀʀᴇ'ɴᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ ▶ ❤️🥀❌"
             )
             return
         requested_by = message.from_user.first_name
@@ -252,7 +252,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "✌𝐖𝐡𝐚𝐭'𝐒 𝐓𝐡𝐞 ❤️ 𝐒𝐨𝐧𝐠 🎸 𝐘𝐨𝐮 🎧 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐏𝐥𝐚𝐲 ▶ ❤️"
+                "✌Wʜɪᴄʜ ❤️ sᴏɴɢ 🎸 ʏᴏᴜ 🎧 ᴡᴀɴᴛ ᴛᴏ ᴘʟᴀʏ▶ ❤️"
             )
         await lel.edit("**Processing 🔄 Please Wait !!**")
         query = message.text.split(None, 1)[1]
@@ -279,7 +279,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "🌸° 𝐒𝐨𝐧𝐠 🎸 𝐍𝐨𝐭 😒 𝐅𝐨𝐮𝐧𝐝 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠 𝐏𝐫𝐨𝐛𝐥𝐞𝐦 ° 🥀."
+                "🌸° Sᴏɴɢ ɴᴏᴛ ғᴏᴜɴᴅ 🎸 ɪɴᴄᴏʀʀᴇᴄᴛ sᴘᴇʟʟɪɴɢ 😒  ° 🥀."
             )
             print(str(e))
             return
@@ -289,11 +289,11 @@ async def play(_, message: Message):
                 
                [
                     InlineKeyboardButton(
-                            text="📨 𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
+                            text="📨 Dᴇᴠᴇʟᴏᴘᴇʀ📡",
                             url=f"https://t.me/HEARTBROKENPERSON1"),
                             
                     InlineKeyboardButton(
-                            text="📨 𝐆𝐫𝐨𝐮𝐩⭐",
+                            text="📨 Sᴜᴘᴘᴏʀᴛ⭐",
                             url=f"https://t.me/FULL_MASTI_CLUBS")
                ],
                
@@ -302,7 +302,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"❰ ° 𝐒𝐨𝐧𝐠 🎸 ° ❱ 𝐋𝐨𝐧𝐠𝐞𝐫 𝐓𝐡𝐚𝐧 {DURATION_LIMIT} 𝐌𝐢𝐧𝐮𝐭𝐞'𝐒 𝐀𝐫𝐞𝐧'𝐭 𝐀𝐥𝐥𝐨𝐰𝐞𝐝 𝐓𝐨 𝐏𝐥𝐚𝐲 ▶ ❤️🥀❌"
+                f"❰ ° Sᴏɴɢ 🎸 ° ❱ ʟᴏɴɢᴇʀ ᴛʜᴇɴ {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs ᴀʀᴇ'ɴᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ ▶ ❤️🥀❌"
             )
             return
         requested_by = message.from_user.first_name
@@ -316,7 +316,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption=f"**» ⏩ 𝐓𝐑𝐀𝐂𝐊 𝐐𝐔𝐄𝐔𝐄𝐃 𝐀𝐓 {position} **\n➡️ **𝐓𝐈𝐓𝐋𝐄​:** [{title[:65]}]({url})\n🕕 **𝐃𝐔𝐑𝐀𝐓𝐈𝐎𝐍:** `{duration}` 𝐌𝐈𝐍𝐔𝐓𝐄s\n🥀 **𝐑𝐄𝐐𝐔𝐄𝐒𝐓𝐄𝐃 𝐁𝐘​:** {message.from_user.mention}\n❤️ **𝐏𝐋𝐀𝐘𝐈𝐍𝐆 𝐈𝐍​:** `{message.chat.title}`\n🎥 **𝐒𝐓𝐑𝐄𝐀𝐌 𝐓𝐘𝐏𝐄:** 𝐘𝐎𝐔𝐓𝐔𝐁𝐄 𝐌𝐔𝐒𝐈𝐂\n❰ ★𝐓𝐌𝐂♪♪𝐌𝐔𝐒𝐈𝐂'𝐗✌︎✌︎★ ❱ Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀...\n𝗕𝘆 : @TMC_EMPIRES".format(position),
+            caption=f"**» ⏩ Yᴏᴜʀ sᴏɴɢ ᴘᴏsɪᴛɪᴏɴ {position} **\n➡️ **Sᴏɴɢ ɴᴀᴍᴇ​:** [{title[:65]}]({url})\n🕕 **Dᴜʀᴀᴛɪᴏɴ:** `{duration}` ᴍɪɴᴜᴛᴇs\n🥀 **Rᴇsǫᴜᴇsᴛᴇᴅ ʙʏ​:** {message.from_user.mention}\n❤️ **Pʟᴀʏɪɴɢ ɪɴ​:** `{message.chat.title}`\n🎥 **Sᴛʀᴇᴀᴍ ᴛʏᴘᴇ:** Yᴏᴜᴛᴜʙᴇ ᴍᴜsɪᴄ\n❰ ★Aʟɪsʜᴀ Mᴜsɪᴄ★ ❱ ɴᴏᴡ 😄 ᴘʟᴀʏɪɴɢ 📀...\nBʏ : @TMC_EMPIRES".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -333,7 +333,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption=f"**»▶️ 𝐍𝐎𝐖 𝐏𝐋𝐀𝐘𝐈𝐍𝐆 «**\n➡️ **𝐓𝐈𝐓𝐋𝐄​:** [{title[:65]}]({url})\n🕕 **𝐃𝐔𝐑𝐀𝐓𝐈𝐎𝐍:** `{duration}` 𝐌𝐈𝐍𝐔𝐓𝐄s\n🥀 **𝐑𝐄𝐐𝐔𝐄𝐒𝐓𝐄𝐃 𝐁𝐘​:** {message.from_user.mention}\n❤️ **𝐏𝐋𝐀𝐘𝐈𝐍𝐆 𝐈𝐍​:** `{message.chat.title}`\n🎥 **𝐒𝐓𝐑𝐄𝐀𝐌 𝐓𝐘𝐏𝐄:** 𝐘𝐎𝐔𝐓𝐔𝐁𝐄 𝐌𝐔𝐒𝐈𝐂\n **❰ ★𝐓𝐌𝐂♪♪𝐌𝐔𝐒𝐈𝐂'𝐗✌︎✌︎★ ❱ Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀...\n **𝗕𝘆 : @TMC_EMPIRES".format(
+            caption=f"**»▶️ Nᴏᴡ ᴘʟᴀʏɪɴɢ «**\n➡️ **Sᴏɴɢ Nᴀᴍᴇ​:** [{title[:65]}]({url})\n🕕 **Dᴜʀᴀᴛɪᴏɴ:** `{duration}` ᴍɪɴᴜᴛᴇs\n🥀 **Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ​:** {message.from_user.mention}\n❤️ **Pʟᴀʏɪɴ ɪɴ​:** `{message.chat.title}`\n🎥 **Sᴛʀᴇᴀᴍ ᴛʏᴘᴇ:** ʏᴏᴜᴛᴜʙᴇ ᴍᴜsɪᴄ\n **❰ ★Aʟɪsʜᴀ Mᴜsɪᴄ★ ❱ ɴᴏᴡ 😄 ᴘʟᴀʏɪɴɢ 📀...\n **ʙʏ : @TMC_EMPIRES".format(
         message.chat.title
         ), )
 
