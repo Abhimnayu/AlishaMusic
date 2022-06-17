@@ -19,7 +19,7 @@ ACTV_CALLS = []
 async def pause(_, message: Message):
     await message.delete()
     await callsmusic.pytgcalls.pause_stream(message.chat.id)
-    await message.reply_text("▶️ 𝐏𝐚𝐮𝐬𝐞 BY{} 😔".format( message.from_user.mention ), )
+    await message.reply_text("▶️ Pᴀᴜsᴇ ʙʏ{} 😔".format( message.from_user.mention ), )
 
 
 @Client.on_message(command(["resume", "chalja"]) & other_filters)
@@ -28,7 +28,7 @@ async def pause(_, message: Message):
 async def resume(_, message: Message):
     await message.delete()
     await callsmusic.pytgcalls.resume_stream(message.chat.id)
-    await message.reply_text("⏸ 𝐑𝐞𝐬𝐮𝐦𝐞 BY {}❤️".format( message.from_user.mention ), )
+    await message.reply_text("⏸ Rᴇsᴜᴍᴇ ʙʏ {}❤️".format( message.from_user.mention ), )
 
 
 @Client.on_message(command(["end", "stop", "band"]) & other_filters)
@@ -42,7 +42,7 @@ async def stop(_, message: Message):
 
     await message.delete()
     await callsmusic.pytgcalls.leave_group_call(message.chat.id)
-    await message.reply_text("❌ 𝐒𝐭𝐨𝐩 🛑 𝐒𝐭𝐫𝐞𝐚𝐦𝐢𝐧𝐠 BY {} 🥺".format(
+    await message.reply_text("❌ Sᴛᴏᴘ 🛑 Sᴛʀᴇᴀᴍɪɴɢ Bʏ {} 🥺".format(
       message.from_user.mention ), )
 
 @Client.on_message(command(["skip", "next", "aage"]) & other_filters)
@@ -55,7 +55,7 @@ async def skip(_, message: Message):
     for x in callsmusic.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        await message.reply_text("❗ 𝐍𝐨𝐭𝐡𝐢𝐧𝐠 😔  𝐈𝐬 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 🎶 𝐓𝐨 𝐒𝐤𝐢𝐩 🥀")
+        await message.reply_text("❗ Nᴏᴛʜɪɴɢ 😔  Is Pʟᴀʏɪɴɢ 🎶 Tᴏ 🥀")
     else:
         queues.task_done(chat_id)
         
@@ -67,7 +67,7 @@ async def skip(_, message: Message):
                 InputStream(
                     InputAudioStream(
                         callsmusic.queues.get(chat_id)["file"],
-                    ),
+                    
                 ),
             )
-    await message.reply_text("➡️ 𝐒𝐤𝐢𝐩 💫 𝐓𝐡𝐞 𝐂𝐮𝐫𝐫𝐞𝐧𝐭 ✨ 𝐒𝐨𝐧𝐠 BY {}🥀🤔".format( message.from_user.mention ), )
+    await message.reply_text("➡️ Sᴋɪᴘ 💫 Tʜᴇ Cᴜʀʀᴇɴᴛ ✨ Sᴏɴɢ ʙʏ {}🥀🤔".format( message.from_user.mention ), )
